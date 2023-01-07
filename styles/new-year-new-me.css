@@ -1,69 +1,83 @@
-.btn-primary{
+.btn-primary {
     background: #F15B22;
     border-radius: 5px;
     border: 0px;
     height: 64px;
     color: #FFFFFF;
     font-weight: 600;
-font-size: 20px;
-padding:25px 14px;
-align-items: center;
+    font-size: 20px;
+    padding: 25px 14px;
+    align-items: center;
 
 }
-.header{
+
+.header {
     background-image: url(../banner/banner1.png);
-    display: flex; 
-    /* align-items: ce; */
+    display: flex;
+    align-items: center;
     height: 808px;
     left: 1600px;
     text-align: right;
-   
+
 }
-.banner{
-margin-left: 750px;
-margin-top: 300px;
+
+.banner {
+    margin-left: 750px;
+    margin-top: 300px;
 }
-.line{
+
+.line {
     display: flex;
 }
-#description{
+
+  #description {
     font-weight: 400;
-font-size: 16px;
-}
-.plans1{
+    font-size: 16px;
+} 
+
+ .plans1 {
     text-align: center;
-    margin-bottom: 400px;
+    margin-top: 100px;
+    font-weight: 700;
+
+} 
+.start{
+    margin-left: 15px;
 }
-.icon{
+
+.icon {
     display: flex;
 }
-.image{
-    position: absolute;
+
+.image {
     width: 560px;
-height: 720px;
-left: 206px;
-top: 930px;
-}
-.Content{
-    /*previous my failuer */
-   text-align: justify;
-position: absolute;
-width: 410px;
-height: 400px;
-left: 870px;
-top: 1170px;
+    height: 620px;
+    left: 206px;
+    top: 930px;
+    margin-top: 100px;
+}   
+
+ .Content {
+   
+    text-align: justify;
+    position: absolute;
+    width: 410px;
+    height: 400px;
+    left: 870px;
+    top: 1170px;
 }
 
-.section-title{
-padding: 30px;
-display: flex;
-gap: 940px;
+.section-title {
+    padding: 30px;
+    display: flex;
+    gap: 940px;
 }
 
-#banner-title{
+#banner-title {
     align-items: center;
 }
-.plans h1{
+
+.plans h1 {
     position: absolute;
     width: 180px;
     height: 10px;
@@ -72,29 +86,80 @@ gap: 940px;
     font-size: 40px;
     margin-bottom: 20px;
 }
- .plans{
-    text-align: center;
-    width: 500px;
-    padding: 200px;
-    gap: 100px;
+
+.plans {
+    padding: 70px;
+    gap: 70px;
     display: flex;
-   position:absolute;
-   width: 500px;
-   height: 185px;
-   top: 1700px;
-   align-items: center;
-}
-.plans h4{
+    width: 300px;
+    height: 185px;
+    top: 1700px;
+    align-items: center;
+} 
+
+.plans h4 {
     text-size-adjust: 50px;
     width: 270px;
     color: #151414;
-    font-weight: 700;
+    font-weight: 200;
     font-size: 25px;
 }
-.plans h5{
+
+.plans h5 {
     text-align: left;
     width: 220px;
     color: #737272;
-    font-weight: 500;
-    font-size: 25px; 
+    font-weight: 200;
+    font-size: 25px;
+}
+.mindset-banner{
+    background-image: url(../banner/87C80152-769D-4E3B-953F-479C1186303C.JPEG);
+    width: 1140px;
+    height: 300px;
+    left: 88.5px;
+    top: 2242px;
+    margin-left: 150px;
+
+}
+#mind{
+    padding-left: 10px;
+    padding-top: 120px;
+    color: white;
+}
+.line1{
+    margin-left: 5px;
+}
+.button{
+    background-color: white;
+    color: #F15B22;
+    border: none;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.contact{
+    color: #FFFFFF;
+    padding-top: 50px;
+
+}
+.information{
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.form{
+    color: #FFFFFF;
+}
+.future{
+    background-color: black;
+    display: flex;
+    margin-top: 100px;
+}
+.subscribe{
+    color: #FFFFFF;
+   
+}
+.sub{
+margin-left: 700px;
 }
