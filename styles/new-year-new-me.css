@@ -1,0 +1,100 @@
+.btn-primary{
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 20px;
+padding:25px 14px;
+align-items: center;
+
+}
+.header{
+    background-image: url(../banner/banner1.png);
+    display: flex; 
+    /* align-items: ce; */
+    height: 808px;
+    left: 1600px;
+    text-align: right;
+   
+}
+.banner{
+margin-left: 750px;
+margin-top: 300px;
+}
+.line{
+    display: flex;
+}
+#description{
+    font-weight: 400;
+font-size: 16px;
+}
+.plans1{
+    text-align: center;
+    margin-bottom: 400px;
+}
+.icon{
+    display: flex;
+}
+.image{
+    position: absolute;
+    width: 560px;
+height: 720px;
+left: 206px;
+top: 930px;
+}
+.Content{
+    /*previous my failuer */
+   text-align: justify;
+position: absolute;
+width: 410px;
+height: 400px;
+left: 870px;
+top: 1170px;
+}
+
+.section-title{
+padding: 30px;
+display: flex;
+gap: 940px;
+}
+
+#banner-title{
+    align-items: center;
+}
+.plans h1{
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    left: 711px;
+    top: 1710.9px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+ .plans{
+    text-align: center;
+    width: 500px;
+    padding: 200px;
+    gap: 100px;
+    display: flex;
+   position:absolute;
+   width: 500px;
+   height: 185px;
+   top: 1700px;
+   align-items: center;
+}
+.plans h4{
+    text-size-adjust: 50px;
+    width: 270px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 25px;
+}
+.plans h5{
+    text-align: left;
+    width: 220px;
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px; 
+}
